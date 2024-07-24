@@ -3,6 +3,7 @@ import './index.css'
 
 import Home from './pages/home/Home'
 import RouterDom from './config/router/router'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
    
   <RouterDom />
+  <Toaster/>
       </div>
       
     </>
